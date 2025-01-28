@@ -79,7 +79,7 @@ target_include_directories(demucs.cpp.lib PUBLIC
 )
 
 target_link_libraries(demucs.cpp.lib ${LIBRARIES_TO_LINK})
-
+#[[
 # compile vendored submodule libnyquist for driver programs
 set(LIBNYQUIST_BUILD_EXAMPLE OFF CACHE BOOL "Disable libnyquist example" FORCE)
 add_subdirectory(vendor/libnyquist)
