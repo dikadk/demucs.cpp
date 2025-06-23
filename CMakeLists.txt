@@ -145,4 +145,4 @@ file(GLOB TEST_SOURCES "test/*.cpp")
 
 add_executable(demucs.cpp.test ${TEST_SOURCES})
 target_link_libraries(demucs.cpp.test demucs.cpp.lib gtest gtest_main libnyquist)
-add_test(NAME tests COMMAND demucs.cpp.test)
+add_test(NAME tests COMMAND demucs.cpp.test)]]
